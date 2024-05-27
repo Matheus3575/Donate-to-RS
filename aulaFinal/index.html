@@ -5,162 +5,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Help RS</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+<body>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <div id="divGeral"></div>
+    <div class="water-side water-left"></div>
+    <div class="water-side water-right"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">HelpRS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">HelpRS</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
-            </li>
-        </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
-    <section style="padding: 1%;">
-        <div class="container-sm titleDiv" >
-            <h1>Faça a diferença na vida das vítimas das enchentes no Rio Grande do Sul.</h1>
-        </div>
-        <div class="container-sm pDiv" >
-            <p>Sua doação pode ajudar a reconstruir lares e oferecer esperança para quem perdeu tudo.</p>
-        </div>
-        <div class="container-sm">
-            <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-primary" type="button">Doar</button>
-                <button class="btn btn-secondary" type="button">Sobre</button>
-                </div>
-        </div>
-        <div class="container-sm" style="border-left: gray 5px solid;">
-            <img src="como-ajudar.png" class="img-fluid titleDiv" alt="..." style="border-radius: 20px;">
-        </div>
+  </header>
 
-    </section>
-    <section class="titleDiv" style="background-color: lightgray; padding: 1%;">
-        <div class="container-sm titleDiv">
-            <div class="container text-leftt">
-                <div class="row align-items-start">
-                  <div class="col">
-                    <div>
-                        <p>Conscientização</p>
-                    </div>
+  <section>
+      <div class="container titleDiv">
+          <h1>Faça a diferença na vida das vítimas das enchentes no Rio Grande do Sul.</h1>
+      </div>
+      <div class="container pDiv">
+          <p>Sua doação pode ajudar a reconstruir lares e oferecer esperança para quem perdeu tudo.</p>
+      </div>
+      <div class="container text-center">
+          <button class="btn btn-primary" type="button">Doar</button>
+          <button class="btn btn-secondary" type="button">Sobre</button>
+      </div>
+      <div class="container img-container">
+          <img src="images/como-ajudar.png" class="img-fluid" alt="Imagem de ajuda">
+      </div>
+  </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <section class="titleDiv" style="background-color: #EEC643; padding: 1%;">
+      <div class="container-sm titleDiv">
+          <div class="container text-leftt">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div>
+                      <p>Conscientização</p>
+                  </div>
+                  <div class="generalBox">
                     <div class="pDiv">
                         <h1>Estatísticas sobre as enchentes e seus impactos</h1>
                     </div>
-                    <div class="pDiv">
+                    <div class="pDiv" style="padding: 2px;">
                         <p>Saiba mais sobre as enchentes no Rio Grande do Sul e o número de pessoas afetadas. Ajude a conscientizar os visitantes sobre a gravidade da situação e a importância das doações.</p>
                     </div>
-                    
-                    <div class="container text-center pDiv">
-                        <div class="row align-items-start">
-                          <div class="col">
-                            <h1>50%</h1>
-                          </div>
-                          <div class="col">
-                            <h1>50%</h1>
-                          </div>
-                        </div>
-                        <div>
-                            <button type="button" class="btn btn-primary titleDiv">Saiba mais</button>
-                        </div>
-                    </div>
                   </div>
-                  <div class="col">
-                    <div class="container-sm">
-                        <iframe class="embed-responsive-item" src="video.mp4" allowfullscreen></iframe>
-                    </div>
+                  
+                  <div class="container text-center" style="margin-top: 8%;">
+                      <div class="row align-items-start">
+                        <div class="col generalBox" style="margin-right: 2px; height: 10%;">
+                          <h1>169+ óbitos</h1>
+                        </div>
+                        <div class="col generalBox" style="margin-left: 2px;">
+                          <h1>800+ feridos</h1>
+                        </div>
+                      </div>
+                      <div style="margin-top: 10px;">
+                          <button type="button" class="btn btn-primary titleDiv">Saiba mais</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="container-sm">
+                      <iframe class="embed-responsive-item" src="videos/video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>
-        </div>
-    </section>
-    <section style="padding: 1%;">
-        <div class="container text-leftt">
-            <div class="row align-items-start">
-              <div class="col">
-                <div style="border-left: gray 4px solid; padding: 10px;">
-                    <div class="titleDiv">
-                        <h2>Recursos necessários</h2>
-                    </div>
-                    <div >
-                        <p>Aqui estão alguns recursos e necessidades das vítimas afetadas pelas enchentes no Rio Grande do Sul. Sua doação pode fazer a diferença!</p>
-                    </div>
-                </div>
-                <div class="titleDiv">
+            </div>
+      </div>
+  </section>
+  <section style="padding: 1%; background-color: white;">
+      <div class="container text-leftt">
+          <div class="row align-items-start">
+            <div class="col">
+              <div class="generalBox" style="border-left: gray 4px solid; padding: 10px;">
+                  <div class="titleDiv hidden">
+                      <h2>Recursos necessários</h2>
+                  </div>
+                  <div class="hidden">
+                      <p>Aqui estão alguns recursos e necessidades das vítimas afetadas pelas enchentes no Rio Grande do Sul. Sua doação pode fazer a diferença!</p>
+                  </div>
+              </div>
+              <div class="generalBox" style="padding: 4px; margin-top: 1%;">
+                <div class="titleDiv hidden">
                     <h2>Alimentos necessários</h2>
                 </div>
-                <div>
-                    <p>Muitas famílias estão precisando de alimentos para suprir suas necessidades básicas. Sua doação de alimentos pode ajudar a alimentar quem mais precisa.</p>
+                <div class="hidden" >
+                  <p>Muitas famílias estão precisando de alimentos para suprir suas necessidades básicas. Sua doação de alimentos pode ajudar a alimentar quem mais precisa.</p>
                 </div>
-                <div class="titleDiv">
-                    <h2>Roupas necessárias</h2>
+              </div>
+              <div class="generalBox" style="padding: 4px; margin-top: 1%;">
+                <div class="titleDiv hidden">
+                  <h2>Roupas necessárias</h2>
                 </div>
-                <div>
+                <div class="hidden">
                     <p>Com as enchentes, muitas pessoas perderam suas roupas e estão precisando de doações. Sua contribuição pode ajudar a vestir quem perdeu tudo.</p>
                 </div>
-                
               </div>
-              <div class="col">
-                <div class="container-sm">
-                    <img src="donate.avif" class="img-fluid titleDiv" alt="..." style="border-radius: 20px;">
-                </div>>
-              </div>
+              
+              
+            </div>
+            <div class="col">
+              <div class="container-sm">
+                  <img src="images/donate.avif" class="img-fluid titleDiv" alt="..." style="border-radius: 20px;">
+              </div>>
             </div>
           </div>
-    </section>
-    <section style="padding: 1%;">
-        <div class="container-sm outer" style="align-items: center; border-top: gray 5px solid; border-bottom: gray 5px solid;">
-            <img src="ajude.jpg" class="img-fluid" alt="...">
         </div>
-        
-    </section>
-    <section style="padding: 1%; ">
-        <div class="container text-center">
-            <div class="row align-items-start">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="ajude1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">DOE!</h5>
-                      <p class="card-text">Doe 5 reais agora mesmo!</p>
-                      <a href="#" class="btn btn-primary">Doar!</a>
-                    </div>
+  </section>
+  <section style="padding: 1%; background-color: white;">
+      <div class="container-sm" style="align-items: center; border-top: gray 5px solid; border-bottom: gray 5px solid;">
+          <img src="images/ajude.jpg" class="img-fluid" alt="...">
+      </div>
+      
+  </section>
+  <section style="padding: 1%; background-color: white; border-bottom: 5px solid gray;">
+      <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col hidden">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/homem.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">DOE!</h5>
+                    <h1 style="font-weight: bold;">R$5</h1>
+                    <a href="#" class="btn btn-primary">Doar!</a>
                   </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="ajude2.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">DOE!</h5>
-                      <p class="card-text">Doe 10 reais agora mesmo!</p>
-                      <a href="#" class="btn btn-primary">Doar!</a>
-                    </div>
+                </div>
+            </div>
+            <div class="col hidden">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/mulher.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">DOE!</h5>
+                    <h1 style="font-weight: bold;">R$10</h1>
+                    <a href="#" class="btn btn-primary">Doar!</a>
                   </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="ajuda3.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">DOE!</h5>
-                      <p class="card-text">Doe 20 reais agora mesmo!</p>
-                      <a href="#" class="btn btn-primary">Doar!</a>
-                    </div>
+                </div>
+            </div>
+            <div class="col hidden">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/menina.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">DOE!</h5>
+                    <h1 style="font-weight: bold;">R$20</h1>
+                    <a href="#" class="btn btn-primary">Doar!</a>
                   </div>
-              </div>
+                </div>
             </div>
           </div>
-    </section>
+        </div>
+  </section>
+  <div class="container-sm" style="padding: 1%; background-color: white; margin-top: 5%; height: 40%; border-top: 5px gray solid;">
+    <h1 class="obrigado">OBRIGADO!!</h1>
+  </div>
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2024  HelpRS. Todos os direitos reservados.</p>
+      <ul class="footer-social-icons">
+        <li><a href="#"><i class="bi bi-facebook">Facebook</i></a></li>
+        <li><a href="#"><i class="bi bi-twitter">Twitter</i></a></li>
+        <li><a href="#"><i class="bi bi-instagram">Instagram</i></a></li>
+        <li><a href="#"><i class="bi bi-linkedin"></i>Linkedin</a></li>
+      </ul>
+    </div>
+  </footer>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  
 
   </body>
 </html>
