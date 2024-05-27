@@ -203,8 +203,9 @@ header{
 }
 
 .obrigado{
+    text-align: center;
     font-family: cursive;
-    font-size: 200px;
+    width: 100%;
     font-weight: bold;
     font-style: italic;
 }
@@ -215,4 +216,26 @@ header{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 10px;
 }
+
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url('images/circle-scatter-haikei.svg');
+}
+
+.layer2{
+    background-image: url('images/blob-scene-haikei.svg');
+}
+
+.layer3{
+    background-image: url('images/blob-2.svg');
+}
+
+
 
